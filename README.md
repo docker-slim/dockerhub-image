@@ -10,7 +10,9 @@ import (
 
 	"github.com/docker-slim/dockerhub-image/info"
 )
+```
 
+```
 result, err := info.Get("dockerhub_user_name", "dockerhub_repo_name")
 if err != nil {
 	panic(err)
