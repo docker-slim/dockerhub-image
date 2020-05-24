@@ -9,8 +9,8 @@ go:
  - 1.14.2
 
 install:
- - go build info
+ - go build ./info
 
 script:
- - go test info
+ - go test ./info
  
