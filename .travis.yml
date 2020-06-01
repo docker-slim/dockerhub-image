@@ -5,8 +5,8 @@ os: linux
 dist: bionic
 
 go:
- - 1.13.10 # Only the two latests versions are officially supported in go
- - 1.14.2
+ - 1.13.11 # Only the two latests versions are officially supported in go
+ - 1.14.3
 
 install:
  - go build ./info
